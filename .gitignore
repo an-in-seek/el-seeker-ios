@@ -24,5 +24,9 @@ xcuserdata/
 *.p12
 *.cer
 
+# IDE (el-seeker / el-seeker-android 와 동일하게 제외)
+.idea/
+*.iml
+
 # macOS
 .DS_Store
