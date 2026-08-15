@@ -37,6 +37,7 @@ enum NavigationPolicy {
         "logins.daum.net",      // 카카오 로그인 경유
         "accounts.google.com",  // 구글 로그인
         "accounts.youtube.com", // 구글 로그인 경유
+        "appleid.apple.com",    // Apple 로그인
     ]
 
     /// 앱 밖(다른 앱)으로 넘길 시스템 Scheme.
