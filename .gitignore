@@ -1,0 +1,28 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Xcode 사용자별 설정 (공유 스킴 xcshareddata 는 커밋한다)
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+
+## Swift Package Manager
+.build/
+.swiftpm/
+
+## 서명 관련
+*.mobileprovision
+*.p12
+*.cer
+
+# macOS
+.DS_Store
