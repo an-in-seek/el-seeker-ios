@@ -176,9 +176,8 @@ open /Users/elseeker/workspace/el-seeker-ios/ElSeeker.xcodeproj
 2. 상단 스킴이 **ElSeeker**, 실행 대상이 원하는 시뮬레이터(예: iPhone 17 Pro)인지 확인합니다.
 3. `⌘R` 로 실행합니다. 시뮬레이터에서는 별도 서명 설정 없이 바로 실행됩니다.
 
-**실기기에서 실행하려면** 서명 팀 설정이 필요합니다.
-`ElSeeker` 타겟 → *Signing & Capabilities* → *Team* 에 본인 Apple ID 팀을 선택하세요
-(`DEVELOPMENT_TEAM` 이 비어 있는 상태로 커밋되어 있습니다).
+**실기기에서 실행하려면** `ElSeeker` 타겟 → *Signing & Capabilities*에서
+프로젝트에 설정된 Team과 본인의 Apple Developer 계정이 일치하는지 확인하세요.
 
 ### 커맨드라인 빌드
 
