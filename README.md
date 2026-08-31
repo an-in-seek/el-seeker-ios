@@ -263,8 +263,8 @@ context.callJavaScript("onExternalOpenResult",
 - **소셜 앱 연동 로그인(app-to-app)** — 카카오톡/네이버 앱으로 넘어가는 커스텀 스킴
   (`kakaotalk://` 등)은 현재 앱 밖으로 전달만 하고 복귀용 URL Scheme 을 등록하지 않았습니다.
   웹 로그인 폼은 정상 동작합니다.
-- **앱 아이콘** — `Assets.xcassets/AppIcon.appiconset` 이 비어 있습니다.
-  스토어 제출 전 1024×1024 아이콘을 넣어야 합니다.
+- **앱 아이콘** — Android의 `app/src/main/res/playstore-icon.png` 브랜드 자산을 기준으로
+  `Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png`를 관리합니다.
 - **오프라인 감지** — 현재는 로드 실패 시점에 오류 코드로 구분합니다.
   Android 처럼 상시 네트워크 모니터링이 필요하면 `NWPathMonitor` 를 추가합니다.
 - **딥링크(Universal Links)**, **푸시(APNs)** 는 아직 없습니다.
